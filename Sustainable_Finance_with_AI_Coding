@@ -11,12 +11,12 @@ from IPython.display import display, Markdown
 import markdown
 from xhtml2pdf import pisa
 
-# Load your API key from the local .env file
+# Load Gemini API key from the local .env file
 load_dotenv()
 
 
 # ===========================================================================
-# 2. EXPANDED BENCHMARK DATA: ITHACA ENERGY (2020 - 2025 CYCLES)
+# 2. BENCHMARK DATA: ITHACA ENERGY (2020 - 2025 CYCLES)
 # ===========================================================================
 ithaca_climate_data = {
     "company_name": "Ithaca Energy plc",
